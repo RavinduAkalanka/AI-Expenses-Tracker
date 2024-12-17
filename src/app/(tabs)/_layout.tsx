@@ -24,7 +24,6 @@ export default function TabLayout() {
             paddingVertical: 32,
             paddingTop: 18,
             position: "absolute",
-            bottom: 24,
           },
         }}
       >
