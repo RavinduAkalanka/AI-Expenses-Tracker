@@ -1,10 +1,16 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  // NOTE: Update this to include the paths to all of your component files.
-  content: ["./src/**/*.{js,tsx,ts,jsx}"],
+  content: ["./src/**/*.{js,tsx,ts,jsx}"],  // Make sure the paths are correct
   presets: [require("nativewind/preset")],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        karla: ["Karla-Regular"],         
+        "karla-bold": ["Karla-Bold"],     
+        "karla-medium": ["Karla-Medium"], 
+        "karla-semibold": ["Karla-SemiBold"], 
+      },
+    },
   },
   plugins: [],
 };
